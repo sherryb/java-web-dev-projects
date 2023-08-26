@@ -1,5 +1,8 @@
+package main.java;
+
 public class StudentPractice {
     public static void main(String[] args){
-        //insantiate your Student class below
+        Student student = new Student("Menma", 1337, 1, 4.00);
+        System.out.println(student);
     }
 }
